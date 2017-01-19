@@ -36,8 +36,8 @@ class ViewController: UIViewController {
     func checkForPrime(checkIfNumber:Int) -> String {
         var interval = 2
         
-        if checkIfNumber == 1 {
-            return "\(checkIfNumber) is an exception"
+        if checkIfNumber < 2 {
+            return "\(checkIfNumber) is an exception to primes."
         }
         
         while interval < checkIfNumber {
