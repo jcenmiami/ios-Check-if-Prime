@@ -26,7 +26,7 @@ class ViewController: UIViewController {
                 
                 
             } else {
-                outputAnswer.text = "Value must be a whole number"
+                outputAnswer.text = "Value must be a whole number!"
             }
         } else {
             outputAnswer.text = "Please input a value"
